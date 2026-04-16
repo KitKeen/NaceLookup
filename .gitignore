@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# .NET
+bin/
+obj/
+*.user
+
+# Claude
+CLAUDE.md
+
+# temp files
+nace_raw.txt

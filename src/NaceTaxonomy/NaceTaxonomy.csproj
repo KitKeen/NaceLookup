@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <PackageId>NaceLookup</PackageId>
+    <RootNamespace>Nace</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Pavel Kuraev</Authors>
+    <Description>O(1) NACE Rev. 2.1 code lookup for .NET. Maps 651 class codes (sections A–V) to descriptions and section names. Thread-safe, zero-allocation after initialization, no external dependencies.</Description>
+    <PackageTags>nace;nace-rev2;economic-activities;classification;fintech;kyc;compliance</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/KitKeen/NaceLookup</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KitKeen/NaceLookup</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
