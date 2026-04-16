@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NaceTaxonomy\NaceTaxonomy.csproj" />
+    <ProjectReference Include="..\..\src\NaceLookup\NaceLookup.csproj" />
   </ItemGroup>
 
 </Project>
